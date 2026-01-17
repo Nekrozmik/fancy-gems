@@ -1,9 +1,52 @@
 {
   "pack": {
-    "description": "Fancy Gems",
-    "pack_format": 75,
-    "supported_formats": 75,
-    "min_format": 75,
+    "description": [
+      {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/diamond",
+        "object": "atlas",
+        "type": "object",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "Ooh, shiny...",
+        "type": "text",
+        "color": "light_purple"
+      },
+      {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/emerald",
+        "object": "atlas",
+        "type": "object",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "\nby ",
+        "type": "text",
+        "color": "dark_gray",
+        "shadow_color": 0
+      },
+      {
+        "player": {
+          "name": "Nekrozmik"
+        },
+        "hat": true,
+        "object": "player",
+        "type": "object",
+        "color": "white"
+      },
+      {
+        "text": " Nekrozmik",
+        "type": "text",
+        "color": "gray"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 75
+    },
+    "min_format": 15,
     "max_format": 75
   }
 }
